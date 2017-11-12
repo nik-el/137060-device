@@ -7,3 +7,16 @@
 *.sublime*
 node_modules/
 Thumbs.db
+device/fonts/gilroy.zip
+device/fonts/open_sans.zip
+device/fonts/web/gilroyextrabold.woff
+device/fonts/web/gilroyextrabold.woff2
+device/fonts/web/gilroylight.woff
+device/fonts/web/gilroylight.woff2
+device/fonts/web/opensans.woff
+device/fonts/web/opensans.woff2
+device/fonts/web/opensanslight.woff
+device/fonts/web/opensanslight.woff2
+device/preview/device-catalog.jpg
+device/preview/device-index.jpg
+device/preview/styleguide.jpg
