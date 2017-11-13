@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="164" height="36" viewBox="0 0 164 36">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 26.4595px;
+      }
+
+      .cls-2 {
+        font-family: "Gilroy-ExtraBold";
+        font-weight: bold;
+      }
+    </style>
+  </defs>
+  <text transform="translate(-2 35) scale(1.83 1.81)" class="cls-1"><tspan class="cls-2">DEVICE</tspan></text>
+</svg>
