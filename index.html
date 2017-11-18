@@ -3,24 +3,27 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
 
 <header>
-  <a href="index.html"><img src="img/logo.png" alt="Логотип Device" width="164" height="35"></a>
+  <a href="index.html"><img src="img/svg/logo.svg" class="logo" alt="Логотип Device" width="164" height="35"></a>
   <section class="nav">
-    <div class="nav__user">
+    <div class="nav-user">
       <input type="text" placeholder="Поиск по сайту">
-      <a href="#">Войти</a>
-      <a href="#">Сравнить</a>
-      <a href="">Корзина</a>
+      <a href="#" class="nav-user__link nav-user__link--login">Войти</a>
+      <a href="#" class="nav-user__link nav-user__link--compare">Сравнить</a>
+      <a href="#" class="nav-user__link nav-user__link--basket">Корзина</a>
     </div>
-    <nav class="nav__main">
-      <ul>
-        <li><a href="catalog.html">Каталог товаров +</a></li>
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Гарантия</a></li>
-        <li><a href="#">Контакты</a></li>
+    <nav class="nav-main">
+      <ul class="nav-main__list">
+        <li><a href="catalog.html" class="nav-main__link">Каталог товаров +</a></li>
+        <li><a href="#" class="nav-main__link">Доставка</a></li>
+        <li><a href="#" class="nav-main__link">Гарантия</a></li>
+        <li><a href="#" class="nav-main__link">Контакты</a></li>
       </ul>
     </nav>
   </section>
@@ -31,11 +34,12 @@
     <div class="slide">
       <div class="slide__info">
         <img src="img/slider/slider-1.png" alt="Самая длинная палка для селфи" width="384" height="486">
-        <p><b>Делай селфи, как Бен Стиллер!</b></p>
-        <p>Самая длинная палка для селфи доступна в нашем магазине.
+        <p class="slide__title">Делай селфи,<br> как Бен Стиллер!</p>
+        <p class="slide__text">Самая длинная палка для селфи доступна в нашем магазине.
           Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
         </p>
-        <a href="#">Подробнее</a>
+        <a href="#" class="btn">
+          <span class="btn__text">Подробнее</span></a>
       </div>
       <table class="slide__feature">
         <tr>
@@ -54,22 +58,18 @@
     <div class="slide">
       <div class="slide__info">
         <img src="img/slider/slider-2.png" alt="Мотивирующие фитнес-браслеты" width="345" height="485">
-        <p><b>Худеем правильно!</b></p>
-        <p>Мотивирующие фитнес-браслеты помогут найти в себе силы
+        <p class="slide__title">Худеем правильно!</p>
+        <p class="slide__text">Мотивирующие фитнес-браслеты помогут найти в себе силы
           не пропускать занятия и соблюдать диету.
         </p>
         <a href="#">Подробнее</a>
       </div>
       <table class="slide__feature">
         <tr>
-          <td>8,5 м</td>
-          <td>5 кг</td>
-          <td>Карбон</td>
+          <td>48 часов</td>
         </tr>
         <tr>
-          <td>Длина палки</td>
-          <td>Вес палки</td>
-          <td>Материал</td>
+          <td>Без подзарядки</td>
         </tr>
       </table>
     </div>
@@ -85,14 +85,12 @@
       </div>
       <table class="slide__feature">
         <tr>
-          <td>8,5 м</td>
-          <td>5 кг</td>
-          <td>Карбон</td>
+          <td>800 м</td>
+          <td>50 м</td>
         </tr>
         <tr>
-          <td>Длина палки</td>
-          <td>Вес палки</td>
-          <td>Материал</td>
+          <td>Дальность полета</td>
+          <td>Радиус поражения</td>
         </tr>
       </table>
     </div>
